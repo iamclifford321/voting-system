@@ -1,0 +1,182 @@
+.navbar {
+    background-color: rgb(28, 43, 54);
+}
+
+.skin-blue .main-header .navbar .nav > li > a {
+    color: #fff
+}
+
+.skin-blue .main-header .navbar .nav > li > a:hover,
+.skin-blue .main-header .navbar .nav > li > a:active,
+.skin-blue .main-header .navbar .nav > li > a:focus,
+.skin-blue .main-header .navbar .nav .open > a,
+.skin-blue .main-header .navbar .nav .open > a:hover,
+.skin-blue .main-header .navbar .nav .open > a:focus,
+.skin-blue .main-header .navbar .nav > .active > a {
+    background: transparent;
+    color: #18a085
+}
+
+.skin-blue .main-header .navbar .sidebar-toggle {
+    color: #fff
+}
+
+.skin-blue .main-header .navbar .sidebar-toggle:hover {
+    color: #18a085;
+    /*background: rgba(0, 0, 0, 0.1)*/
+}
+
+.skin-blue .main-header .navbar .sidebar-toggle {
+    color: #fff
+}
+
+.skin-blue .main-header .navbar .sidebar-toggle:hover {
+    /*background-color: rgb(28, 43, 54);*/
+    color: #d8a222
+}
+
+@media (max-width:767px) {
+    .skin-blue .main-header .navbar .dropdown-menu li.divider {
+        background-color: rgba(255, 255, 255, 0.1)
+    }
+    .skin-blue .main-header .navbar .dropdown-menu li a {
+        color: #fff
+    }
+    .skin-blue .main-header .navbar .dropdown-menu li a:hover {
+        background: #18a085
+    }
+}
+
+.skin-blue .main-header .logo {
+    background-color: rgb(28, 43, 54);
+    color: #fff;
+    border-bottom: 0 solid transparent
+}
+
+.skin-blue .main-header .logo:hover {
+    background-color: rgb(28, 43, 54);
+}
+
+.skin-blue .main-header li.user-header {
+    background-color: #008f73/*rgba(24, 160, 133, .52)*/;
+}
+
+.skin-blue .content-header {
+    background: transparent
+}
+
+.skin-blue .wrapper,
+.skin-blue .main-sidebar,
+.skin-blue .left-side {
+    /*background-color: rgb(28, 43, 54);*/
+   /*background: linear-gradient(0deg, rgba(42, 62, 80, 0.60), rgba(42, 62, 80, .60)), url(../../../../ui/dist/img/photo1.png) no-repeat fixed;*/
+}
+
+
+.skin-blue .sidebar {
+    /*background-color: rgb(28, 43, 54);*/
+   background: linear-gradient(0deg, rgba(42, 62, 80, 0.60), rgba(42, 62, 80, .60)), url(../../../../ui/dist/img/photo1.png) no-repeat fixed;
+}
+
+.skin-blue .user-panel > .info,
+.skin-blue .user-panel > .info > a {
+    color: #fff
+}
+
+.skin-blue .sidebar-menu > li.header {
+    color: #4b646f;
+    background: #1a2226
+}
+
+.skin-blue .sidebar-menu > li > a {
+    border-left: 3px solid transparent;
+    color: white
+}
+
+.skin-blue .sidebar-menu > li:hover > a {
+    color: #18a085;
+    border-right: solid 3px #18a085;
+}
+
+.skin-blue .sidebar-menu > li.active > a,
+.skin-blue .sidebar-menu > li.active:hover > a {
+    background-color: #18a085;
+    color: #fff
+}
+
+.skin-blue .sidebar-menu > li > {
+    margin: 0 1px;
+}
+
+.skin-blue .sidebar a {
+    color: white;
+}
+
+.skin-blue .sidebar a:hover {
+    text-decoration: none
+}
+
+.skin-blue .sidebar-menu .treeview-menu > li > a {
+    color: #8aa4af;
+    padding: 5px 0px 5px 50px
+}
+
+.skin-blue .sidebar-menu .treeview-menu > li.active > a {
+    color: #fff;
+    background-color: #18a085;
+    width: 100%;
+}
+
+.skin-blue .sidebar-menu .treeview-menu > li:hover > a {
+    color: #fff;
+    border-right: solid 3px #18a085;
+    width: 100%;
+}
+
+
+.skin-blue .sidebar-form {
+    border: 0px solid #374850;
+}
+
+.skin-blue .sidebar-form input[type="text"],
+.skin-blue .sidebar-form .btn {
+    box-shadow: none;
+    background-color: #374850;
+    border: 1px solid transparent;
+}
+
+.skin-blue .sidebar-form input[type="text"] {
+    color: #666;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+.skin-blue .sidebar-form input[type="text"]:focus,
+.skin-blue .sidebar-form input[type="text"]:focus + .input-group-btn .btn {
+    background-color: #ddd;
+    color: #666
+}
+
+.skin-blue .sidebar-form input[type="text"]:focus + .input-group-btn .btn {
+    border-left-color: #fff
+}
+
+.skin-blue .sidebar-form .btn {
+    color: #999;
+    border-top-left-radius: 0;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 0
+}
+
+.skin-blue.layout-top-nav .main-header > .logo {
+    background-color: #3c8dbc;
+    color: #fff;
+    border-bottom: 0 solid transparent
+}
+
+.skin-blue.layout-top-nav .main-header > .logo:hover {
+    background-color: #3b8ab8
+}

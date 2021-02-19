@@ -1,0 +1,96 @@
+.profile-user-img:hover {
+    margin: 0 auto;
+    width: 150px;
+    height: 150px;
+    padding: 3px;
+    border: 3px solid rgb(196, 45, 45);
+    transition: ease-in-out .3s;
+}
+
+.cusCheck {
+    display: block;
+    position: relative;
+    padding-left: 18px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    font-size: 28px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.cusCheck input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border: 3px solid transparent
+}
+
+.cusCheck:hover input ~ .checkmark {
+    /*background-color: #ccc;*/
+    width: 50px;
+    height: 50px;
+    -webkit-transform: rotate(10deg);
+    -ms-transform: rotate(10deg);
+    transform: rotate(10deg);
+    border: 3px solid transparent;
+    transition: all .3s;
+}
+
+.cusCheck input:checked ~ .checkmark {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 3px solid #18a085;
+    color: #2196F3;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.cusCheck input:checked ~ .checkmark:after {
+    display: block;
+    
+    margin-left: 6px;
+    padding: 5px 5px 15px 5px;
+    color: #18a085;
+}
+
+.cusCheck input:checked ~ .checkmark:after img {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.cusCheck .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid #18a085;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.form-BAl {
+    border: transparent;
+    border-bottom: solid 1px #d3d3d3;
+    outline: transparent;
+    width: 100%;
+    padding: 8px 12px .50px;
+}

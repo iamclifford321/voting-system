@@ -1,0 +1,95 @@
+.allAddCss{
+    font-size: 14px;
+    padding: 5px 10px;
+    background-color: #f0f3f4;
+    color: #666666;
+    border-radius: 3px;
+}
+.allAddCssBtn{
+	background-color: #f0f3f4;
+	color: #666666;
+}
+.allAddCssBtn:hover, .allAddCss:hover{
+	color: #9798c5;
+    background-color: #f9f9f9;
+}
+.allAddCssBtn:focus, .allAddCss:focus{
+	color: #9798c5;
+    background-color: #f9f9f9;
+}
+.allAddCssBtn:active, .allAddCss:active{
+	color: #9798c5;
+    background-color: #f9f9f9;
+}
+.candidate-box .box-header{
+	height: auto !important;
+}
+.custom-modal, .custom-modalEdit{
+	display: none;
+	z-index: 100001;
+
+}
+.coversAll, .coversAllEdit{
+	display: none;
+	position: fixed;
+	top: 0px;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	z-index: 120000;
+	background-color: #00000040;
+
+}
+div.limitSelect{
+	display: none;
+}
+div.forcoverfront{
+	max-width: 500px;
+	margin: auto;
+	margin-top: 40px;
+}
+div.forcoverforint-back{
+	padding: 10px 20px 10px 20px;
+}
+.notifIcon{
+	display: none;
+}
+.jumbotron-cutom{
+	padding: 15px;
+	border-radius: 5px;
+	margin-bottom: 15px;
+}
+.jumbotron-cutom h3{
+	color : inherit;
+}
+.btn-custon{    
+	background: #e7ebec !important;
+    color: #00000087;
+}
+.btn-custon:hover{    
+	background: #e3e7e8 !important;
+    color: black;
+}
+div#btn-save-info, div#btn-save-sec{
+	/* display: none; */
+}
+.colorTheme{
+	max-width: 500px;
+	height: 100px;
+	opacity: 0;
+	border-radius: 5px;
+}
+div.theme-box:hover{
+	box-shadow: 0px 6px 12px 3px rgba(0, 0, 0, 0.21);
+}
+div.theme-box:hover div.colorTheme{
+	/* opacity: .8; */
+}
+div.theme-box{
+	transition: .2s;
+	cursor: pointer;
+}
+div.coversAllEdit, div.coversAll {
+	height: 600px;
+	overflow-y: scroll !important;
+}
