@@ -1,2 +1,2 @@
 <?php
-$conn = mysqli_connect('localhost','root','','avs2.0');
+$conn = mysqli_connect('https://remotemysql.com/','SPnWvYTcsf','Hjw06y8B1T','SPnWvYTcsf');

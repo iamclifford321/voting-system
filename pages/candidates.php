@@ -6,7 +6,7 @@
     	<div class="pull-right">
     		<a href="" class="allAddCss" data-toggle="modal" data-target="#modal-default">
 				<i class="fa fa-user-plus"></i> Add
-    		</a>
+    		</a> 
     	</div>
 
     </div>
